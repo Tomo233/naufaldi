@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="sass/main.css" />
+  <title>Sass</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="flex">
+        <div class="logo">
+          <p id="logo">Naufaldi</p>
+        </div>
+        <svg class="menu" width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 10H3"></path>
+          <path d="M21 6H3"></path>
+          <path d="M21 14H3"></path>
+          <path d="M21 18H3"></path>
+        </svg>
+        <nav>
+         
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#mentorSection">Mentorship</a></li>
+            <li><a href="#doneProjects">Portfolio</a></li>
+            <li><a href="#codeSnippet">Snippet</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="line"></div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container">
+        <h1>
+          Hi Im Naufaldi, a special human with some ability to love learning
+          and working on teamwork.
+        </h1>
+        <div class="flex">
+          <div id="leftSide">
+            <div id="leftImg">
+              <img src="images/emoji.png" alt="emoji" />
+            </div>
+            <div id="content">
+              <p class="bigP">Biography</p>
+              <p class="p">
+                Getting Buff +1 for learning, Buff +2 for documentation and
+                more buff on managing team. Exicited on
+                <span class="blueSpan">React</span> ,
+                <span class="lightBlue"> UX Research </span> and
+                <span class="greenSpan">Agile</span>.
+              </p>
+            </div>
+          </div>
+          <div id="rightSide">
+            <p class="bigP">Lets connect</p>
+            <div id="icons">
+              <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 4H8a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4Z"></path>
+                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+                <path d="M16.5 7.5v.001"></path>
+              </svg>
+              <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22 4.009c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.322 12 7.999v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497-3.753c-.002-.249 1.51-2.772 1.818-4.013v.001Z">
+                </path>
+              </svg>
+              <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2H7Z"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="secondFlex">
+          <div id="whatIDo">
+            <p class="bigP">What I do</p>
+            <p class="p">
+              Build and maintain websites,
+              <span class="greenSpan">frontend dev</span> also have a
+              mentorship called <span class="lightBlue"> MOFON</span>. My
+              motto is Beauty and function in equal measure as priority.
+            </p>
+          </div>
+          <div id="whatImages">
+            <div class="flex">
+              <div class="rightImg" id="webDev">
+                <div class="all">
+                  <div class="rightImages">
+                    <img src="images/planet.png" alt="" />
+                  </div>
+                  <div class="contentWebUi">
+                    <p class="whatT">Web Development</p>
+                    <p class="p">
+                      You will receive a customized plan for your fitness
+                      journey, and lots of support.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="rightImg" id="uxRes">
+                <div class="all">
+                  <div class="rightImages">
+                    <img src="images/contract.png" alt="" />
+                  </div>
+                  <div class="contentWebUi">
+                    <p class="whatT">UX Research</p>
+                    <p class="p">
+                      You will receive a customized plan for your fitness
+                      journey, and lots of support.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="featuredProject">
+      <div class="container">
+        <h1>Featured Project</h1>
+        <div class="grid">
+          <div class="gridEl" id="firstGridEl">
+            <div class="imgs">
+              <img src="/images/Thumbnail Project.png" alt="">
+              <!-- <div id="firstProjectImg" class="projectImg">
+                <img class="firstImg" src="images/featuredProject1.png" alt="" />
+                <img class="strelica" src="images/strelica.png" alt="">
+                <img class="new" src="images/new.png" alt="">
+                <img class="tailwind" src="images/tailwind.png" alt="">
+                <img class="react" src="images/react.png" alt="">
+              </div> -->
+            </div>
+            <div id="firstText" class="projectText">
+              <h3>Web Development</h3>
+              <h2>Bolder Landingpage</h2>
+              <p>Serrow restructured and designed core pages, creating interactive elements that put users in control
+                and allowed them to discover the information needed to make a decision.</p>
+            </div>
+          </div>
+          <div class="gridEl" id="secondGridEl">
+            <div class="imgs">
+              <div id="secondProjectImg" class="projectImg">
+                <img src="/images/Thumbnail Project (1).png" alt="">
+              
+                <!-- <img class="firstImg" src="images/featuredProject2.png" alt="" />
+                <img class="strelica" src="images/strelica.png" alt="">
+                <img class="tailwind" src="images/tailwind.png" alt="">
+                <img class="react" src="images/react.png" alt="">
+                <img class="sass" src="images/sass.png" alt="">
+              </div> -->
+            </div>
+            <div id="secondText" class="projectText">
+              <h3>Web Development</h3>
+              <h2>Kerja Mantul Education Management</h2>
+              <p>Serrow restructured and designed core pages, creating interactive elements that put users in control
+                and allowed them to discover the information needed to make a decision.</p>
+            </div>
+          </div>
+        </div>
+        <div id="featuredBtn">
+          <button>
+            <img src="images/featuredBtn.png" alt="">
+            <span> See More </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div id="snippetSection">
+      <div class="container">
+        <h1>Code Snippet</h1>
+        <div class="grid">
+
+          <div id="box1" class="box">
+            <h3>Nextjs Starter</h3>
+            <p>A dead simple for nextjs project.</p>
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <img class="snippetReact" src="images/react2.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>8 Stars</p>
+            </div>
+          </div>
+          <div id="box2" class="box">
+            <h3>Frontend Starter Kit</h3>
+            <p>A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.
+            </p>
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <img class="snippetSass" src="images/sass2.png" alt="">
+            <img class="snippetHtml" src="images/html.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>12 Stars</p>
+            </div>
+          </div>
+          <div id="box3" class="box">
+            <h3>Nextjs Starter</h3>
+            <p>A dead simple for nextjs project.</p>
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <img class="snippetReact" src="images/react2.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>8 Stars</p>
+            </div>
+          </div>
+          <div id="box4" class="box">
+            <h3>Frontend Starter Kit</h3>
+            <p>A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.
+            </p>
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <img class="snippetSass" src="images/sass2.png" alt="">
+            <img class="snippetHtml" src="images/html.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>12 Stars</p>
+            </div>
+          </div>
+        </div>
+        <div id="snippetBtn">
+          <button>
+            <img src="images/featuredBtn.png" alt="">
+            <span> See More </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mentorSection">
+      <div class="container">
+        <h1>Mentorship</h1>
+        <div class="flex">
+          <div id="mentorTxt">
+            <p>Menghabiskan banyak waktu untuk belajar <span class="greenSpn">sendiri </span>dan tetap merasa <span
+                class="greenSpn">stuck?</span> </p>
+            <p id="mentorshipText">Mentorship Frontend ini menjadi jawaban atas permasalahanmu. Karena disini, kamu
+              bakal merasakan
+              mentoring yang lebih personal</p>
+          </div>
+          <div id="mentorBoxes">
+            <div class="flex">
+              <div class="mentorBox" id="mentorBox1">
+                <div class="mentorImgg">
+                  <img src="images/firstEmoji.png" alt="">
+                </div>
+                <div class="mentorH">
+                  <h3>Minggu Pertama</h3>
+                </div>
+                <p>Membahas dasar dari website seperti tag atribut dan element. </p>
+              </div>
+              <div class="mentorBox" id="mentorBox2">
+                <div class="mentorImgg">
+                  <img src="images/secondEmoji.png" alt="">
+                </div>
+                <div class="mentorH">
+                  <h3>Minggu Kedua</h3>
+                </div>
+                <p>Membahas dasar dari website seperti tag atribut dan element. </p>
+              </div>
+              <div class="mentorBox" id="mentorBox3">
+                <div class="mentorImgg">
+                  <img src="images/thirdEmoji.png" alt="">
+                </div>
+                <div class="mentorH">
+                  <h3>Minggu Ketiga</h3>
+                </div>
+                <p>Membahas dasar dari website seperti tag atribut dan element. </p>
+              </div>
+              <!-- <div id="mentorBtn">
+                <button>
+                  <img src="images/featuredBtn.png" alt="">
+                  <span>Baca selengkapnya</span>
+                </button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="secondMentor">
+      <div class="container">
+        <div class="flex">
+          <div id="imgMentor">
+            <h1>Keuntungan <span> Mentorship</span></h1>
+            <img src="images/bittin.png" alt="">
+          </div>
+          <div id="mentorContent">
+            <div class="mentorBoxes">
+              <div class="secondmentorImg">
+                <img src="images/programmer.png" alt="">
+              </div>
+              <div class="secondmentorTxt">
+                <h3>Mentorship 1 : 1</h3>
+                <p>Video Call 1 : 1 dengan mentor untuk berdiskusi, bertanya dan konsultasi seputar mentorship frontend
+                  atau hal lainnya</p>
+              </div>
+            </div>
+            <div class="mentorBoxes">
+              <div class="secondmentorImg">
+                <img src="images/finger.png" alt="">
+              </div>
+              <div class="secondmentorTxt">
+                <h3>Terarah </h3>
+                <p>Video Call 1 : 1 dengan mentor untuk berdiskusi, bertanya dan konsultasi seputar mentorship frontend
+                  atau hal lainnya</p>
+              </div>
+            </div>
+            <div class="mentorBoxes">
+              <div class="secondmentorImg">
+                <img src="images/books.png" alt="">
+              </div>
+              <div class="secondmentorTxt">
+                <h3>Silabus </h3>
+                <p>Silabus praktis, fundamental yang bisa diimplementasikan berdasarkan studi kasus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <footer>
+    <div class="line"></div>
+    <div class="container">
+      <ul>
+        <li>Docs</li>
+        <li>Book Notes</li>
+        <li>Polywork</li>
+        <li>Starter Template</li>
+        <li>Statistics</li>
+      </ul>
+      <p>Reach me out</p>
+      <div id="footerImg">
+        <img src="images/github.png" alt="">
+        <img src="images/in.png" alt="">
+        <img src="images/twitter.png" alt="">
+      </div>
+    </div>
+  </footer>
+
+  
+    <div id="codeSnippet">
+      <div class="container">
+        <h1>Code Snippet</h1>
+        <p>Search code snippet</p>
+        <div class="search">
+        <input type="search" name="snippetSearch" placeholder="Type your favorite snippet here, hehehe ....." id="search">
+        <img id="searchImg" src="images/search.png" alt="">
+      </div>
+        <div class="grid">
+          <div class="codeBox">
+            <h3>Nextjs Starter</h3>
+            <p>A dead simple for nextjs project.</p>
+            <img class="snippetReact" src="images/react2.png" alt="">
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>22 Stars</p>
+            </div>
+          </div>
+          <div class="codeBox">
+            <h3>Frontend Starter Kit</h3>
+            <p>A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.</p>
+            <img class="snippetReact" src="images/react2.png" alt="">
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <img class="snippetSass" src="images/sass2.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>22 Stars</p>
+            </div>
+          </div>
+          <div class="codeBox">
+            <h3>Nextjs Starter 2.0</h3>
+            <p>A dead simple for nextjs project with firebase setup.</p>
+            <img class="snippetReact" src="images/react2.png" alt="">
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>22 Stars</p>
+            </div>
+          </div>
+          <div class="codeBox">
+            <h3>Mobile Web Starter Kit</h3>
+            <p>A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.</p>
+            <img class="snippetReact" src="images/react2.png" alt="">
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <img class="snippetSass" src="images/sass2.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>22 Stars</p>
+            </div>
+          </div>
+          <div class="codeBox">
+            <h3>Nextjs Starter 2.0</h3>
+            <p>A dead simple for nextjs project with firebase setup.</p>
+            <img class="snippetReact" src="images/react2.png" alt="">
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>22 Stars</p>
+            </div>
+          </div>
+          <div class="codeBox">
+            <h3>Mobile Web Starter Kit</h3>
+            <p>A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.</p>
+            <img class="snippetReact" src="images/react2.png" alt="">
+            <img class="snippetTailwind" src="images/tailwind2.png" alt="">
+            <img class="snippetSass" src="images/sass2.png" alt="">
+            <div class="stars">
+              <img src="images/star.png" alt="">
+              <p>22 Stars</p>
+            </div>
+           
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <footer>
+    <div class="line"></div>
+    <div class="container">
+      <ul>
+        <li>Docs</li>
+        <li>Book Notes</li>
+        <li>Polywork</li>
+        <li>Starter Template</li>
+        <li>Statistics</li>
+      </ul>
+      <p>Reach me out</p>
+      <div id="footerImg">
+        <img src="images/github.png" alt="">
+        <img src="images/in.png" alt="">
+        <img src="images/twitter.png" alt="">
+      </div>
+    </div>
+  </footer>
+  <div id="doneProjects">
+    <div class="container">
+      <div class="lastH">
+        <h1>Project that i has been <span class="greenSpn"> done</h1>
+      </div>
+      <div class="lastImg">
+        <img src="images/strelica2.png" alt="">
+      </div>
+        <div class="grid">
+          <div class="gridEl" id="firstGridEl">
+            <div id="ig" class="imgs">
+              <img src="/images/Thumbnail Project.png" alt="">
+              <!-- <div id="firstProjectImg" class="projectImg">
+                <img class="firstImg" src="images/featuredProject1.png" alt="" />
+                <img class="strelica" src="images/strelica.png" alt="">
+                <img class="new" src="images/new.png" alt="">
+                <img class="tailwind" src="images/tailwind.png" alt="">
+                <img class="react" src="images/react.png" alt="">
+              </div> -->
+            </div>
+            <div id="firstText" class="projectText">
+              <h3>Web Development</h3>
+              <h2>Bolder Landingpage</h2>
+              <p>Serrow restructured and designed core pages, creating interactive elements that put users in control
+                and allowed them to discover the information needed to make a decision.</p>
+            </div>
+          </div>
+          <div class="gridEl" id="secondGridEl">
+            <div id="ig2" class="imgs">
+              <img src="/images/Thumbnail Project (1).png" alt="">
+             
+              <!-- <div id="secondProjectImg" class="projectImg">
+                <img class="firstImg" src="images/featuredProject2.png" alt="" />
+                <img class="strelica" src="images/strelica.png" alt="">
+                <img class="tailwind" src="images/tailwind.png" alt="">
+                <img class="react" src="images/react.png" alt="">
+                <img class="sass" src="images/sass.png" alt="">
+              </div> -->
+            </div>
+            <div id="secondText" class="projectText">
+              <h3>Web Development</h3>
+              <h2>Kerja Mantul Education Management</h2>
+              <p>Serrow restructured and designed core pages, creating interactive elements that put users in control
+                and allowed them to discover the information needed to make a decision.</p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+  </div>
+</main>
+<footer id="lastFoot">
+  <div class="line"></div>
+  <div class="container">
+    <ul>
+      <li>Docs</li>
+      <li>Book Notes</li>
+      <li>Polywork</li>
+      <li>Starter Template</li>
+      <li>Statistics</li>
+    </ul>
+    <p>Reach me out</p>
+    <div id="footerImg">
+      <img src="images/github.png" alt="">
+      <img src="images/in.png" alt="">
+      <img src="images/twitter.png" alt="">
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+
+
+</html>

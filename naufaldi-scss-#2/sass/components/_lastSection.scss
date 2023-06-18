@@ -1,0 +1,150 @@
+main {
+    #doneProjects {
+
+        padding-top: 150px;
+        background-color: $black;
+
+        .container {
+            @include container;
+
+            .lastH {
+                @include inlineBlock;
+                margin-bottom: 81px;
+
+                h1 {
+                    @include projectH;
+                }
+
+                span {
+                    @include greenSpan;
+                }
+            }
+
+            .lastImg {
+                @include inlineBlock;
+            }
+
+            .grid {
+                @include grid;
+
+                .gridEl {
+                    margin-bottom: 100px;
+
+                    .imgs {
+                        @include lastImgs;
+                        width: 39%;
+
+                        .projectImg {
+                            @include projectBackground;
+
+                            .firstImg {
+                                @include firstImg;
+                            }
+                        }
+                    }
+
+                    .strelica {
+                        @include strelica;
+
+                    }
+
+                    .new {
+                        position: absolute;
+                        top: 25px;
+                        left: 47px;
+                    }
+
+                    .tailwind {
+                        @include tailwind;
+                    }
+
+                    .react {
+                        @include react;
+                    }
+
+                    .sass {
+                        position: absolute;
+                        left: 103px;
+                        top: 77px;
+                    }
+
+                    .projectText {
+                        @include inlineBlock;
+                        width: 60%;
+                        position: relative;
+                        left: 200px;
+
+                        h3 {
+                            @include webDeveloper;
+                        }
+
+                        h2 {
+                            @include projectH;
+                        }
+
+                        p {
+                            @include projectP;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #doneProjects {
+        .container {
+            @include cont;
+
+            .lastH{
+                h1 {
+                    font-size: 45px  !important;
+                }
+            }
+            .lastImg{
+                img{
+                    display: none;
+                }
+            }
+            .grid{
+               #firstGridEl{
+                    #ig{
+                        img{
+                            @include lastImgs;
+
+                        }
+                    }
+                    #firstText{
+                        @include lastText;
+                        h2{
+                            font-size: 28px
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                    
+                }
+                #secondGridEl{
+                    #ig2{
+                        img{
+                            @include lastImgs;
+
+                        }
+                    }
+                    #secondText{
+                        @include lastText;
+                        h2{
+                            font-size: 28px
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

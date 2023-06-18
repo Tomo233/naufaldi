@@ -1,0 +1,63 @@
+footer {
+    display: none;
+    background-color: $black;
+
+    .line {
+        @include line;
+    }
+
+    .container {
+        @include container;
+
+        ul {
+            @include flex;
+            justify-content: center;
+            gap: 65px;
+            margin-top: 96px;
+        }
+
+        li {
+            @include li;
+        }
+
+        p {
+            @include li;
+            text-align: center;
+            margin-top: 48px;
+        }
+
+        #footerImg {
+            text-align: center;
+            margin-top: 20px;
+
+            img {
+                margin-right: 37px;
+
+                &:nth-child(3) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #lastFoot {
+        display: block !important;
+        .container{
+            @include cont;
+            ul{
+                display: block;
+                margin: 0 auto;
+                li{
+                    text-align: center;
+                    font-size: 24px;
+                    margin-bottom: 25px;
+                    &:first-child{
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

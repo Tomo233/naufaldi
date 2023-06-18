@@ -1,0 +1,246 @@
+@mixin container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin bigP {
+  font-family: $poppins;
+  color: $white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@mixin p {
+  color: $gray;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@mixin blueSpan {
+  color: $darkBlue;
+}
+
+@mixin lightBlue {
+  color: $lightBlue;
+}
+
+@mixin greenSpan {
+  color: $green;
+}
+
+@mixin rightImg {
+  background-color: $blue;
+  width: 262px;
+  height: 190px;
+  margin: 0px 50px 0px 30px;
+  border-radius: 12px;
+}
+
+@mixin rightImages {
+  margin: 0 auto;
+  position: relative;
+  bottom: 20px;
+  background-color: $blue;
+  border: 1px solid $green;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+@mixin imgI {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+@mixin whatT {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: $poppins;
+  color: $white;
+  padding: 0px 48px 8px 47px;
+}
+
+@mixin secondP {
+  line-height: 25px;
+  color: $gray;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: $poppins;
+  padding: 8px 19px 0px 18px;
+}
+
+@mixin grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@mixin strelica {
+  position: absolute;
+  right: 9px;
+  top: 10px;
+  background-color: $strelicaBlue;
+  padding: 8px;
+  border-radius: 9px;
+}
+
+@mixin tailwind {
+  position: absolute;
+  left: 54px;
+  top: 77px;
+}
+
+@mixin react {
+  position: absolute;
+  left: 77px;
+  top: 77px;
+}
+
+@mixin projectBackground {
+  background-color: $blue;
+  width: 556px;
+  height: 282px;
+  position: relative;
+}
+
+@mixin webDeveloper {
+  font-family: $poppins;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 45px;
+  color: $thirdGray;
+}
+
+@mixin projectH {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-family: $poppins;
+  font-weight: 700;
+  color: $white;
+}
+
+@mixin projectP {
+  font-size: 18px;
+  font-family: $poppins;
+  font-weight: 400;
+  color: $p;
+  line-height: 32px;
+}
+
+@mixin inlineBlock {
+  display: inline-block;
+}
+
+@mixin seeMore {
+  width: 165px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  background-color: $blue;
+  color: $buttonGray;
+  cursor: pointer;
+  margin-bottom: 67px;
+  text-align: center;
+}
+
+@mixin seeSpan {
+  margin-right: 17px;
+}
+
+@mixin seeImg {
+  margin-right: 30px;
+  margin-left: 23px;
+}
+
+@mixin snippetTailwind {
+  position: absolute;
+  left: 44px;
+  bottom: 27px;
+}
+
+@mixin snippetReact {
+  position: absolute;
+  left: 97px;
+  bottom: 33px;
+}
+
+@mixin snippetSass {
+  position: absolute;
+  left: 105px;
+  bottom: 27px;
+}
+
+@mixin snippetHtml {
+  position: absolute;
+  left: 155px;
+  bottom: 27px;
+}
+@mixin greenSpn {
+  color: $span;
+}
+
+@mixin h {
+  font-family: $poppins;
+  font-size: 18px;
+  font-weight: 700;
+  color: $white;
+}
+
+
+@mixin h3{
+  font-family: $poppins;
+  font-size: 28px;
+  font-weight: 700;
+  color: $white;
+}
+@mixin line {
+  width: 100%;
+  height: 2px;
+  background-color: $lineGray;
+}
+
+@mixin li {
+  font-family: $poppins;
+  font-size: 14px;
+  font-weight: 500;
+  color: $white;
+
+}
+@mixin snippet {
+  background-color: $blue;
+  margin: 30px;
+  width: 556px;
+  height: 282px;
+  border-radius: 20px;
+  position: relative;
+}
+
+@mixin lastImgs {
+  @include inlineBlock;
+  width: 30%;
+}
+
+@mixin firstImg{
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+@mixin cont {
+  padding: 0px 24px;
+}
+@mixin lastImgs{
+  width: 340px;
+}
+@mixin lastText{
+  position: relative;
+  left: 0;
+  top: 30px;
+  text-align: center;
+  width: 100%;
+}

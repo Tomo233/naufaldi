@@ -1,0 +1,140 @@
+main {
+    #snippetSection {
+        background-color: $black;
+
+        .container {
+            @include container;
+
+            h1 {
+                @include projectH;
+            }
+
+            .grid {
+                @include grid;
+                grid-template-columns: 1fr 1fr;
+
+                .box {
+                    @include snippet;
+
+                    h3 {
+                        @include bigP;
+                        margin: 50px 0px 3px 40px;
+                    }
+
+                    p {
+                        @include secondP;
+                        margin-left: 25px;
+                    }
+
+                    .snippetTailwind {
+                        @include snippetTailwind;
+                    }
+
+                    .snippetReact {
+                        @include snippetReact;
+                    }
+
+                    .snippetSass {
+                        @include snippetSass
+                    }
+
+                    .snippetHtml {
+                        @include snippetHtml;
+                    }
+
+                    .stars {
+                        img {
+                            position: absolute;
+                            right: 130px;
+                            bottom: 32px;
+                        }
+
+                        p {
+                            position: absolute;
+                            right: 52px;
+                            bottom: 30px;
+                        }
+                    }
+                }
+
+            }
+
+            #snippetBtn {
+                margin-left: 30px;
+
+                button {
+                    @include seeMore;
+                }
+
+                img {
+                    @include seeImg;
+                }
+
+                span {
+                    @include seeSpan
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px) {
+    main {
+        #snippetSection {
+            padding-top: 50px;
+            .container {
+                @include cont;
+
+                h1 {
+                    text-align: center;
+                    padding-top: 30px;
+                }
+
+                .grid {
+                    grid-template-columns: 1fr;
+
+                    .box {
+                        width: 315px;
+
+                        h3 {
+                            font-size: 22px;
+                        }
+                        .snippetReact{
+                            bottom: 27px;
+                            left: 75px;
+                        }
+                        .snippetTailwind{
+                            bottom: 27px;
+                            left: 25px;
+                        }
+                        .snippetSass{
+                            bottom: 27px;
+                            left:75px;
+                        }
+                        .snippetHtml{
+                            bottom: 27px;
+                            left: 125px;
+                        }
+                        .stars {
+                            img {
+                                right: 75px;
+                            }
+
+                            p {
+                                right: 0;
+                            }
+                        }
+
+                    }
+                }
+
+                #snippetBtn {
+                    text-align: center;
+                    margin-right: 60px;
+                }
+
+            }
+        }
+    }
+
+}

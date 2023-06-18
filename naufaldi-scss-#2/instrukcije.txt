@@ -1,0 +1,66 @@
+HEADER :
+- container
+- flexbox
+- logo
+- navigacija
+- linija (div)
+
+SEKCIJA 1 :
+- container
+- h1 / 1. ! Gradient  2.Font 
+
+- flexbox :
+- lijeva strana slika
+- desna strana text ikonice
+
+flexbox2 : 
+- lijeva strana : text 
+- desna strana : slike mixin
+
+SEKCIJA 2 :
+-container 
+-h1
+-grid mixin
+-flex izmedju slike i texta
+-button
+
+SEKCIJA 3 : 
+-container 
+-h1
+-grid
+-button
+
+// DRUGA STRANICA SITE-A
+SEKCIJA 4 : 
+-container
+HEADER MIXIN : 
+- logo dio
+- nav 
+
+SEKCIJA 5 : 
+-container
+-h1
+-flex
+-p 
+-boxes
+-button
+
+SEKCIJA 6 :
+-container 
+-flex 
+-grid
+
+SEKCIJA 7 / FOOTER 
+-container 
+-flex
+
+// 3. STRANA SITE-A
+
+SEKCIJA 8
+HEADER : mixin
+- h5
+- search
+-grid
+-footer 
+
+

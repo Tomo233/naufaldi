@@ -1,0 +1,19 @@
+@import "base/vars";
+@import "base/mixin";
+@import "components/header";
+@import "components/sectionOne";
+@import 'components/secondSection';
+@import 'components/snippetSection';
+@import 'components/mentor';
+@import 'components/secondMentor';
+@import 'components/footer';
+@import 'components/secondSnippet';
+@import 'components/lastSection';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,107 @@
+main {
+    #secondMentor{
+        padding-top: 200px;
+        background-color: $black;
+        .container{
+            @include container;
+           
+            span{
+                display: block;
+            }
+            .flex{
+                @include flex;
+                #imgMentor{
+                    h1{
+                        @include projectH;
+                    }
+                }
+                #mentorContent{
+                    .mentorBoxes{
+                        width: 655px;
+                        height: 180px;
+                        background-color: $blue;
+                        margin: 50px;
+                        border-radius: 12px;
+                        position: relative;
+                        .secondmentorImg{
+                            @include inlineBlock;
+                            bottom: 40px;
+                            img{
+                                padding: 33px;
+                                position: absolute;
+                                border: 1px solid $green;
+                                background-color: $blue;
+                                border-radius: 50%;
+                                left: -59px;
+                                top: 30px;
+                            }
+                        }
+                        .secondmentorTxt {
+                            @include inlineBlock;
+                            margin-left: 15%;
+                            margin-top: 15px;
+                            width: 55%;
+                            h3{
+                                @include h3;
+                                margin-left: 12px;
+                                margin-top: 5px;
+                            }
+                            p{
+                                @include secondP;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px) {
+    main{
+        #secondMentor{
+            .container{
+                padding: 0px 10px;
+               h1{
+                text-align: center;
+                span{
+                    display: inline;
+                }
+               }
+               .flex{
+                display: block;
+                #imgMentor{
+                    h1{
+                        font-size: 40px;
+                    }
+                    img{
+                        display: none;
+                    }
+                }
+                #mentorContent{
+                    padding-bottom: 10px;
+                    .mentorBoxes{
+                        height: 215px;
+                        width: 276px;
+                        margin-top: 150px;
+                        .secondmentorImg{
+                            img{
+                                position: absolute;
+                                left: 85px;
+                                top: -63px;
+                                width: 27px;
+                            }
+                        }
+                        .secondmentorTxt{
+                            width: 100%;
+                            margin: 55px auto;
+                            text-align: center;
+
+                        }
+                    }
+                }
+               }
+            }
+        }
+    }
+}

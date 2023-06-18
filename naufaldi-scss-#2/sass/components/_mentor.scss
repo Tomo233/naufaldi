@@ -1,0 +1,122 @@
+main {
+    #mentorSection {
+        background-color: $black;
+
+        .container {
+            @include container;
+
+            h1 {
+                @include projectH;
+                padding-top: 80px;
+                margin-bottom: 0;
+            }
+
+            .flex {
+                @include flex;
+                gap: 30px;
+
+                #mentorTxt {
+                    width: 60%;
+                    margin-top: 30px;
+
+                    p {
+                        @include secondP;
+                    }
+
+                    span {
+                        @include greenSpan;
+                        text-decoration: underline;
+                    }
+
+                    #mentorshipText {
+                        margin-top: 15px;
+                        border-left: 5px solid;
+                        border-image: linear-gradient(#3bf686 40.75%,
+                                #4ca9ff 90.52%);
+                        border-image-slice: 1;
+
+                        // &::before{
+                        //     content: "";
+                        //     position: absolute;
+                        //     left: 0px;
+                        //     width: 20px;
+                        //     height: 5px;
+                        //     background-color: red;
+                        // }
+                    }
+                }
+
+                #mentorBoxes {
+                    background-color: $blue;
+                    border-radius: 12px;
+                    width: 80%;
+                        
+
+                    // width: 78%;
+                    .flex {
+                        @include flex;
+
+                        .mentorBox {
+                            margin: 50px 53px 0px 30px;
+                            position: relative;
+
+                            .mentorImgg {
+                                @include inlineBlock;
+                                margin-right: 10px
+                            }
+
+                            .mentorH {
+                                @include inlineBlock;
+                                width: 30%;
+                            }
+
+                            h3 {
+                                @include h;
+                            }
+
+                            p {
+                                @include secondP;
+                                padding: 10px;
+                                line-height: 26px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px) {
+    main {
+        #mentorSection{
+            .container {
+                @include cont;
+            h1{
+                text-align: center;
+                padding: 25px 0px;
+            }
+            .flex{
+                flex-wrap: wrap;
+                #mentorTxt{
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 25px;
+                }
+                #mentorBoxes{
+                    background-color: $blue;
+
+                        margin: 0 auto;
+                    .flex{
+                      .mentorBox{
+                       
+                        
+                      }
+                    }
+                }
+            }
+            }
+        }
+    }
+}

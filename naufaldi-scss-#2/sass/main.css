@@ -1,0 +1,1128 @@
+header {
+  background-color: #272727;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  padding-bottom: 50px;
+}
+header .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+header .container .flex {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .flex .logo #logo {
+  color: #fff;
+  margin-top: 52px;
+  margin-bottom: 45px;
+  font-size: 24px;
+  font-weight: 700;
+}
+header .container .flex nav {
+  margin-top: 55px;
+}
+header .container .flex nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 65px;
+}
+header .container .flex nav li {
+  font-weight: 600;
+}
+header .container .flex nav li a {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+header .container .flex nav li a:hover {
+  color: #fff;
+  transform: scale(0.95);
+  transition: 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 400px) {
+  header .container .flex .logo {
+    margin-left: 10px;
+  }
+  header .container .flex svg {
+    position: absolute;
+    right: 15px;
+    top: 37px;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+  }
+  header .container .flex nav {
+    background-color: #272727;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 15%;
+    text-align: center;
+  }
+  header .container .flex nav ul {
+    display: block;
+    margin: 15px auto;
+  }
+  header .container .flex nav ul li {
+    padding-bottom: 30px;
+  }
+}
+.block {
+  opacity: 1 !important;
+}
+
+main section {
+  background-color: #272727;
+  padding-top: 180px;
+  width: 100%;
+}
+main section h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #80ffa3;
+  background-image: linear-gradient(134.01deg, #3bf686 40.75%, #4ca9ff 90.52%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent; /* za Safari */
+  line-height: 70px;
+}
+main section .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main section .container .flex {
+  display: flex;
+  justify-content: space-between;
+}
+main section .container .flex #leftSide #leftImg {
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #80ffa3;
+  background-color: #3a3636;
+  width: 125px;
+  margin: 80px 25px 0px 0px;
+}
+main section .container .flex #leftSide #content {
+  display: inline-block;
+  width: 60%;
+}
+main section .container .flex #leftSide #content .bigP {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+main section .container .flex #leftSide #content .p {
+  color: #d1d1d1;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+main section .container .flex #leftSide #content .p .blueSpan {
+  color: #4ca9ff;
+}
+main section .container .flex #leftSide #content .p .lightBlue {
+  color: #62d9ff;
+}
+main section .container .flex #leftSide #content .p .greenSpan {
+  color: #80ffa3;
+}
+main section .container .flex #rightSide {
+  margin-top: 80px;
+  width: 40%;
+}
+main section .container .flex #rightSide .bigP {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+main section .container .flex #rightSide #icons {
+  color: #fff;
+  margin-top: 20px;
+}
+main section .container .flex #rightSide #icons svg {
+  width: 26px;
+  padding: 5px;
+}
+main section .container .secondFlex {
+  display: flex;
+  justify-content: space-between;
+}
+main section .container .secondFlex #whatIDo {
+  margin-top: 135px;
+  width: 38%;
+}
+main section .container .secondFlex #whatIDo .bigP {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+main section .container .secondFlex #whatIDo .p {
+  color: #d1d1d1;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 15px;
+}
+main section .container .secondFlex #whatIDo .p .lightBlue {
+  color: #62d9ff;
+}
+main section .container .secondFlex #whatIDo .p .greenSpan {
+  color: #80ffa3;
+}
+main section .container .secondFlex #whatImages {
+  margin-top: 122px;
+  width: 62%;
+}
+main section .container .secondFlex #whatImages .flex {
+  display: flex;
+  justify-content: space-between;
+}
+main section .container .secondFlex #whatImages .flex .rightImg {
+  background-color: #323443;
+  width: 262px;
+  height: 190px;
+  margin: 0px 50px 0px 30px;
+  border-radius: 12px;
+  margin-bottom: 20px !important;
+}
+main section .container .secondFlex #whatImages .flex .rightImg .all .rightImages {
+  margin: 0 auto;
+  position: relative;
+  bottom: 20px;
+  background-color: #323443;
+  border: 1px solid #80ffa3;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+main section .container .secondFlex #whatImages .flex .rightImg .all .rightImages img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+main section .container .secondFlex #whatImages .flex .rightImg .all .contentWebUi {
+  text-align: center;
+}
+main section .container .secondFlex #whatImages .flex .rightImg .all .contentWebUi .whatT {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding: 0px 48px 8px 47px;
+}
+main section .container .secondFlex #whatImages .flex .rightImg .all .contentWebUi .p {
+  line-height: 25px;
+  color: #d1d1d1;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 19px 0px 18px;
+}
+
+@media only screen and (max-width: 400px) {
+  main section {
+    padding-top: 50px;
+  }
+  main section .container {
+    padding: 0px 24px;
+  }
+  main section .container h1 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 36px;
+  }
+  main section .container .flex {
+    flex-wrap: wrap;
+  }
+  main section .container .flex #leftSide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main section .container .flex #leftSide #leftImg {
+    margin: 30px auto;
+  }
+  main section .container .flex #leftSide #content {
+    text-align: center;
+    width: 100%;
+  }
+  main section .container .flex #rightSide {
+    width: 100%;
+    margin-top: 0px;
+  }
+  main section .container .flex #rightSide .bigP {
+    display: none;
+  }
+  main section .container .flex #rightSide #icons {
+    text-align: center;
+  }
+  main section .container .secondFlex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main section .container .secondFlex #whatIDo {
+    margin-top: 50px;
+    width: 100%;
+  }
+  main section .container .secondFlex #whatIDo .bigP {
+    text-align: center;
+  }
+  main section .container .secondFlex #whatIDo .p {
+    text-align: center;
+  }
+  main section .container .secondFlex #whatImages {
+    margin-top: 60px;
+    width: 100%;
+  }
+  main section .container .secondFlex #whatImages .flex .rightImg {
+    padding-bottom: 50px;
+    width: 48%;
+    margin: 0;
+    display: inline-block;
+  }
+  main section .container .secondFlex #whatImages .flex .rightImg .all .contentWebUi .whatT {
+    padding: 10px;
+  }
+  main section .container .secondFlex #whatImages .flex .rightImg .all .contentWebUi .p {
+    line-height: 23px;
+  }
+}
+main #featuredProject {
+  background-color: #272727;
+}
+main #featuredProject .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main #featuredProject .container h1 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding-top: 140px;
+  margin-bottom: 38px;
+}
+main #featuredProject .container .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main #featuredProject .container .grid .gridEl {
+  margin-bottom: 100px;
+}
+main #featuredProject .container .grid .gridEl .imgs {
+  width: 340px;
+}
+main #featuredProject .container .grid .gridEl .projectText {
+  display: inline-block;
+  width: 60%;
+  position: relative;
+  left: 300px;
+}
+main #featuredProject .container .grid .gridEl .projectText h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 45px;
+  color: #DEDEDE;
+}
+main #featuredProject .container .grid .gridEl .projectText h2 {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+main #featuredProject .container .grid .gridEl .projectText p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #D4D4D4;
+  line-height: 32px;
+}
+main #featuredProject .container #featuredBtn button {
+  width: 165px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  background-color: #323443;
+  color: #C9C9C9;
+  cursor: pointer;
+  margin-bottom: 67px;
+  text-align: center;
+}
+main #featuredProject .container #featuredBtn button img {
+  margin-right: 30px;
+  margin-left: 23px;
+}
+main #featuredProject .container #featuredBtn button span {
+  margin-right: 17px;
+}
+
+@media only screen and (max-width: 400px) {
+  main #featuredProject .container {
+    padding: 0px 24px;
+  }
+  main #featuredProject .container h1 {
+    font-size: 40px;
+  }
+  main #featuredProject .container .grid .gridEl .imgs {
+    width: 100%;
+  }
+  main #featuredProject .container .grid .gridEl .imgs img {
+    margin-top: 50px;
+    width: 340px;
+    height: 195px;
+  }
+  main #featuredProject .container .grid .gridEl .projectText {
+    left: 0;
+    text-align: center;
+    width: 100%;
+    top: 55px;
+  }
+  main #featuredProject .container .grid .gridEl .projectText h2 {
+    font-size: 20px;
+  }
+  main #featuredProject .container .grid .gridEl .projectText h3 {
+    margin-bottom: 45px;
+  }
+  main #featuredProject .container .grid #featuredBtn {
+    margin: 0 auto;
+  }
+}
+main #snippetSection {
+  background-color: #272727;
+}
+main #snippetSection .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main #snippetSection .container h1 {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+main #snippetSection .container .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+main #snippetSection .container .grid .box {
+  background-color: #323443;
+  margin: 30px;
+  width: 556px;
+  height: 282px;
+  border-radius: 20px;
+  position: relative;
+}
+main #snippetSection .container .grid .box h3 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 50px 0px 3px 40px;
+}
+main #snippetSection .container .grid .box p {
+  line-height: 25px;
+  color: #d1d1d1;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 19px 0px 18px;
+  margin-left: 25px;
+}
+main #snippetSection .container .grid .box .snippetTailwind {
+  position: absolute;
+  left: 44px;
+  bottom: 27px;
+}
+main #snippetSection .container .grid .box .snippetReact {
+  position: absolute;
+  left: 97px;
+  bottom: 33px;
+}
+main #snippetSection .container .grid .box .snippetSass {
+  position: absolute;
+  left: 105px;
+  bottom: 27px;
+}
+main #snippetSection .container .grid .box .snippetHtml {
+  position: absolute;
+  left: 155px;
+  bottom: 27px;
+}
+main #snippetSection .container .grid .box .stars img {
+  position: absolute;
+  right: 130px;
+  bottom: 32px;
+}
+main #snippetSection .container .grid .box .stars p {
+  position: absolute;
+  right: 52px;
+  bottom: 30px;
+}
+main #snippetSection .container #snippetBtn {
+  margin-left: 30px;
+}
+main #snippetSection .container #snippetBtn button {
+  width: 165px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  background-color: #323443;
+  color: #C9C9C9;
+  cursor: pointer;
+  margin-bottom: 67px;
+  text-align: center;
+}
+main #snippetSection .container #snippetBtn img {
+  margin-right: 30px;
+  margin-left: 23px;
+}
+main #snippetSection .container #snippetBtn span {
+  margin-right: 17px;
+}
+
+@media only screen and (max-width: 400px) {
+  main #snippetSection {
+    padding-top: 50px;
+  }
+  main #snippetSection .container {
+    padding: 0px 24px;
+  }
+  main #snippetSection .container h1 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  main #snippetSection .container .grid {
+    grid-template-columns: 1fr;
+  }
+  main #snippetSection .container .grid .box {
+    width: 315px;
+  }
+  main #snippetSection .container .grid .box h3 {
+    font-size: 22px;
+  }
+  main #snippetSection .container .grid .box .snippetReact {
+    bottom: 27px;
+    left: 75px;
+  }
+  main #snippetSection .container .grid .box .snippetTailwind {
+    bottom: 27px;
+    left: 25px;
+  }
+  main #snippetSection .container .grid .box .snippetSass {
+    bottom: 27px;
+    left: 75px;
+  }
+  main #snippetSection .container .grid .box .snippetHtml {
+    bottom: 27px;
+    left: 125px;
+  }
+  main #snippetSection .container .grid .box .stars img {
+    right: 75px;
+  }
+  main #snippetSection .container .grid .box .stars p {
+    right: 0;
+  }
+  main #snippetSection .container #snippetBtn {
+    text-align: center;
+    margin-right: 60px;
+  }
+}
+main #mentorSection {
+  background-color: #272727;
+}
+main #mentorSection .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main #mentorSection .container h1 {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 80px;
+  margin-bottom: 0;
+}
+main #mentorSection .container .flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+main #mentorSection .container .flex #mentorTxt {
+  width: 60%;
+  margin-top: 30px;
+}
+main #mentorSection .container .flex #mentorTxt p {
+  line-height: 25px;
+  color: #d1d1d1;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 19px 0px 18px;
+}
+main #mentorSection .container .flex #mentorTxt span {
+  color: #80ffa3;
+  text-decoration: underline;
+}
+main #mentorSection .container .flex #mentorTxt #mentorshipText {
+  margin-top: 15px;
+  border-left: 5px solid;
+  -o-border-image: linear-gradient(#3bf686 40.75%, #4ca9ff 90.52%);
+     border-image: linear-gradient(#3bf686 40.75%, #4ca9ff 90.52%);
+  border-image-slice: 1;
+}
+main #mentorSection .container .flex #mentorBoxes {
+  background-color: #323443;
+  border-radius: 12px;
+  width: 80%;
+}
+main #mentorSection .container .flex #mentorBoxes .flex {
+  display: flex;
+  justify-content: space-between;
+}
+main #mentorSection .container .flex #mentorBoxes .flex .mentorBox {
+  margin: 50px 53px 0px 30px;
+  position: relative;
+}
+main #mentorSection .container .flex #mentorBoxes .flex .mentorBox .mentorImgg {
+  display: inline-block;
+  margin-right: 10px;
+}
+main #mentorSection .container .flex #mentorBoxes .flex .mentorBox .mentorH {
+  display: inline-block;
+  width: 30%;
+}
+main #mentorSection .container .flex #mentorBoxes .flex .mentorBox h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+main #mentorSection .container .flex #mentorBoxes .flex .mentorBox p {
+  line-height: 25px;
+  color: #d1d1d1;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 19px 0px 18px;
+  padding: 10px;
+  line-height: 26px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  main #mentorSection .container {
+    padding: 0px 24px;
+  }
+  main #mentorSection .container h1 {
+    text-align: center;
+    padding: 25px 0px;
+  }
+  main #mentorSection .container .flex {
+    flex-wrap: wrap;
+  }
+  main #mentorSection .container .flex #mentorTxt {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  main #mentorSection .container .flex #mentorBoxes {
+    background-color: #323443;
+    margin: 0 auto;
+  }
+}
+main #secondMentor {
+  padding-top: 200px;
+  background-color: #272727;
+}
+main #secondMentor .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main #secondMentor .container span {
+  display: block;
+}
+main #secondMentor .container .flex {
+  display: flex;
+  justify-content: space-between;
+}
+main #secondMentor .container .flex #imgMentor h1 {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+main #secondMentor .container .flex #mentorContent .mentorBoxes {
+  width: 655px;
+  height: 180px;
+  background-color: #323443;
+  margin: 50px;
+  border-radius: 12px;
+  position: relative;
+}
+main #secondMentor .container .flex #mentorContent .mentorBoxes .secondmentorImg {
+  display: inline-block;
+  bottom: 40px;
+}
+main #secondMentor .container .flex #mentorContent .mentorBoxes .secondmentorImg img {
+  padding: 33px;
+  position: absolute;
+  border: 1px solid #80ffa3;
+  background-color: #323443;
+  border-radius: 50%;
+  left: -59px;
+  top: 30px;
+}
+main #secondMentor .container .flex #mentorContent .mentorBoxes .secondmentorTxt {
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: 15px;
+  width: 55%;
+}
+main #secondMentor .container .flex #mentorContent .mentorBoxes .secondmentorTxt h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+main #secondMentor .container .flex #mentorContent .mentorBoxes .secondmentorTxt p {
+  line-height: 25px;
+  color: #d1d1d1;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 19px 0px 18px;
+}
+
+@media only screen and (max-width: 400px) {
+  main #secondMentor .container {
+    padding: 0px 10px;
+  }
+  main #secondMentor .container h1 {
+    text-align: center;
+  }
+  main #secondMentor .container h1 span {
+    display: inline;
+  }
+  main #secondMentor .container .flex {
+    display: block;
+  }
+  main #secondMentor .container .flex #imgMentor h1 {
+    font-size: 40px;
+  }
+  main #secondMentor .container .flex #imgMentor img {
+    display: none;
+  }
+  main #secondMentor .container .flex #mentorContent {
+    padding-bottom: 10px;
+  }
+  main #secondMentor .container .flex #mentorContent .mentorBoxes {
+    height: 215px;
+    width: 276px;
+    margin-top: 150px;
+  }
+  main #secondMentor .container .flex #mentorContent .mentorBoxes .secondmentorImg img {
+    position: absolute;
+    left: 85px;
+    top: -63px;
+    width: 27px;
+  }
+  main #secondMentor .container .flex #mentorContent .mentorBoxes .secondmentorTxt {
+    width: 100%;
+    margin: 55px auto;
+    text-align: center;
+  }
+}
+footer {
+  display: none;
+  background-color: #272727;
+}
+footer .line {
+  width: 100%;
+  height: 2px;
+  background-color: #4d4d4d;
+}
+footer .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+footer .container ul {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 65px;
+  margin-top: 96px;
+}
+footer .container li {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+footer .container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-top: 48px;
+}
+footer .container #footerImg {
+  text-align: center;
+  margin-top: 20px;
+}
+footer .container #footerImg img {
+  margin-right: 37px;
+}
+footer .container #footerImg img:nth-child(3) {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  #lastFoot {
+    display: block !important;
+  }
+  #lastFoot .container {
+    padding: 0px 24px;
+  }
+  #lastFoot .container ul {
+    display: block;
+    margin: 0 auto;
+  }
+  #lastFoot .container ul li {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  #lastFoot .container ul li:first-child {
+    margin-top: 30px;
+  }
+}
+main #codeSnippet {
+  background-color: #272727;
+  padding-top: 80px;
+}
+main #codeSnippet .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main #codeSnippet .container h1 {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+main #codeSnippet .container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+main #codeSnippet .container .search {
+  position: relative;
+}
+main #codeSnippet .container .search #search {
+  background-color: #323443;
+  color: #9C9C9C;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding-left: 36px;
+  width: 1140px;
+  height: 83px;
+}
+main #codeSnippet .container .search #searchImg {
+  position: absolute;
+  right: -70px;
+  top: 25px;
+}
+main #codeSnippet .container .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+main #codeSnippet .container .grid .codeBox {
+  background-color: #323443;
+  margin: 30px;
+  width: 556px;
+  height: 282px;
+  border-radius: 20px;
+  position: relative;
+}
+main #codeSnippet .container .grid .codeBox h3 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 50px 0px 3px 40px;
+}
+main #codeSnippet .container .grid .codeBox p {
+  line-height: 25px;
+  color: #d1d1d1;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 19px 0px 18px;
+  margin-left: 25px;
+}
+main #codeSnippet .container .grid .codeBox .snippetTailwind {
+  position: absolute;
+  left: 44px;
+  bottom: 27px;
+}
+main #codeSnippet .container .grid .codeBox .snippetReact {
+  position: absolute;
+  left: 97px;
+  bottom: 33px;
+}
+main #codeSnippet .container .grid .codeBox .snippetSass {
+  position: absolute;
+  left: 105px;
+  bottom: 27px;
+}
+main #codeSnippet .container .grid .codeBox .snippetHtml {
+  position: absolute;
+  left: 155px;
+  bottom: 27px;
+}
+main #codeSnippet .container .grid .codeBox .stars img {
+  position: absolute;
+  right: 130px;
+  bottom: 32px;
+}
+main #codeSnippet .container .grid .codeBox .stars p {
+  position: absolute;
+  right: 52px;
+  bottom: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  main #codeSnippet .container {
+    padding: 0px 24px;
+  }
+  main #codeSnippet .container h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  main #codeSnippet .container p {
+    margin-left: 15px;
+  }
+  main #codeSnippet .container .search {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  main #codeSnippet .container .search #search {
+    width: 336px;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+  main #codeSnippet .container .search #searchImg {
+    position: absolute;
+    right: 0px;
+    top: 130px;
+    width: 25px;
+  }
+  main #codeSnippet .container .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  main #codeSnippet .container .grid .codeBox {
+    width: 330px;
+    margin: 30px auto;
+  }
+  main #codeSnippet .container .grid .codeBox h3 {
+    font-size: 22px;
+  }
+  main #codeSnippet .container .grid .codeBox .snippetSass {
+    left: 150px;
+    bottom: 27px;
+  }
+  main #codeSnippet .container .grid .codeBox .snippetTailwind {
+    bottom: 27px;
+  }
+  main #codeSnippet .container .grid .codeBox .snippetReact {
+    bottom: 27px;
+  }
+  main #codeSnippet .container .grid .codeBox .stars p {
+    right: 5px;
+  }
+  main #codeSnippet .container .grid .codeBox .stars img {
+    right: 85px;
+  }
+}
+main #doneProjects {
+  padding-top: 150px;
+  background-color: #272727;
+}
+main #doneProjects .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main #doneProjects .container .lastH {
+  display: inline-block;
+  margin-bottom: 81px;
+}
+main #doneProjects .container .lastH h1 {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+main #doneProjects .container .lastH span {
+  color: #80ffa3;
+}
+main #doneProjects .container .lastImg {
+  display: inline-block;
+}
+main #doneProjects .container .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main #doneProjects .container .grid .gridEl {
+  margin-bottom: 100px;
+}
+main #doneProjects .container .grid .gridEl .imgs {
+  width: 340px;
+  width: 39%;
+}
+main #doneProjects .container .grid .gridEl .imgs .projectImg {
+  background-color: #323443;
+  width: 556px;
+  height: 282px;
+  position: relative;
+}
+main #doneProjects .container .grid .gridEl .imgs .projectImg .firstImg {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+main #doneProjects .container .grid .gridEl .strelica {
+  position: absolute;
+  right: 9px;
+  top: 10px;
+  background-color: #3F4152;
+  padding: 8px;
+  border-radius: 9px;
+}
+main #doneProjects .container .grid .gridEl .new {
+  position: absolute;
+  top: 25px;
+  left: 47px;
+}
+main #doneProjects .container .grid .gridEl .tailwind {
+  position: absolute;
+  left: 54px;
+  top: 77px;
+}
+main #doneProjects .container .grid .gridEl .react {
+  position: absolute;
+  left: 77px;
+  top: 77px;
+}
+main #doneProjects .container .grid .gridEl .sass {
+  position: absolute;
+  left: 103px;
+  top: 77px;
+}
+main #doneProjects .container .grid .gridEl .projectText {
+  display: inline-block;
+  width: 60%;
+  position: relative;
+  left: 200px;
+}
+main #doneProjects .container .grid .gridEl .projectText h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 45px;
+  color: #DEDEDE;
+}
+main #doneProjects .container .grid .gridEl .projectText h2 {
+  margin-bottom: 28px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+main #doneProjects .container .grid .gridEl .projectText p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #D4D4D4;
+  line-height: 32px;
+}
+
+@media only screen and (max-width: 400px) {
+  #doneProjects .container {
+    padding: 0px 24px;
+  }
+  #doneProjects .container .lastH h1 {
+    font-size: 45px !important;
+  }
+  #doneProjects .container .lastImg img {
+    display: none;
+  }
+  #doneProjects .container .grid #firstGridEl #ig img {
+    width: 340px;
+  }
+  #doneProjects .container .grid #firstGridEl #firstText {
+    position: relative;
+    left: 0;
+    top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  #doneProjects .container .grid #firstGridEl #firstText h2 {
+    font-size: 28px;
+  }
+  #doneProjects .container .grid #firstGridEl #firstText p {
+    font-size: 15px;
+  }
+  #doneProjects .container .grid #secondGridEl #ig2 img {
+    width: 340px;
+  }
+  #doneProjects .container .grid #secondGridEl #secondText {
+    position: relative;
+    left: 0;
+    top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  #doneProjects .container .grid #secondGridEl #secondText h2 {
+    font-size: 28px;
+  }
+  #doneProjects .container .grid #secondGridEl #secondText p {
+    font-size: 15px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=main.css.map */
